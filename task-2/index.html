@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Калькулятор вкладов</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Задание 3. Разработка калькулятора вкладов</h2>
+
+    <div class="container">
+      <div class="form">
+        <select id="type">
+          <option value="">Вид вклада</option>
+          <option value="replenish">Пополняемый</option>
+          <option value="term">Срочный</option>
+        </select>
+
+        <select id="period">
+          <option value="">Срок вклада</option>
+        </select>
+
+        <input type="number" id="amount" placeholder="Сумма, руб" />
+
+        <button id="calc">Рассчитать</button>
+      </div>
+
+      <div class="result" id="result">Здесь будет результат расчёта</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
