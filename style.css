@@ -1,8 +1,16 @@
 body {
-  background: #f4f4f4;
+  background: #575555;
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 .swiper {
